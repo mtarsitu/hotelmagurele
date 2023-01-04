@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+.copy_right {
+    font-family: 'Jura', sans-serif;
+    padding: 2% 0% 2% 0%;
+    background-color: #75975e;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+
+    @media (max-width: 800px) {
+        padding: 5% 5%;
+        text-align: center;
+    }
+}
+
+.footer_content {
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    gap: 10%;
+    padding: 5% 10% 5% 10%;
+    background-color: #f8f9fa;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+    }
+}
+
+.footer_text {
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    line-height: 35px;
+    color: green;
+    a{
+        color: green;
+        text-decoration: none;
+    }
+}
+
+.footer_link_section {
+    font-family: 'Jura', sans-serif;
+    text-align: initial;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+
+    a {
+        color: green;
+        text-decoration: none;
+        text-align: center;
+        line-height: 40px;
+    }
+}
+
+.footer_headers {
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.first {
+    font-family: 'Jura', sans-serif;
+    width: 50%;
+}
+
+.second {
+    font-family: 'Jura', sans-serif;
+    width: 30%;
+}
+
+.third {
+    font-family: 'Jura', sans-serif;
+    width: 30%;
+}
+
+@media screen and (max-width: 900px) {
+    .footer_content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer_link_section {
+        text-align: center;
+    }
+
+    .first {
+        width: 100%;
+    }
+
+    .second {
+        width: 100%;
+    }
+
+    .third {
+        width: 100%;
+    }
+
+    .footer_text {
+        text-align: center;
+    }
+}
+
+.footer_image {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    div {
+        font-family: 'Jura', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+}

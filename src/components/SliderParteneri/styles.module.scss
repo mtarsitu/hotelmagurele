@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+.slider_parteneri {
+    width: 500px;
+    height: 300px;
+    font-family: 'Jura', sans-serif;
+
+    @media screen and (max-width: 1100px) {
+        width: auto;
+    }
+}
+
+.round_img {
+    @media screen and (max-width: 1100px) {
+        width: 30%
+    }
+}
+
+.slider_title {
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10%;
+}
+
+.slider_slide {
+    img {
+        margin: auto;
+    }
+}
+
+.round_div {
+    margin-top: 10px;
+}
+
+.rectangle_div {
+    font-family: 'Jura', sans-serif;
+    margin-top: 30px;
+
+    @media screen and (max-width: 1100px) {
+        margin-top: 100px;
+    }
+}
+
+.image1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: auto;
+    padding: 10%;
+
+    @media screen and (max-width: 1100px) {
+        padding: 0;
+    }
+}
+
+.image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: auto;
+    padding: 20%;
+
+    @media screen and (max-width: 1100px) {
+        padding: 0;
+    }
+}
+
+.image3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: auto;
+    padding: 15%;
+
+    @media screen and (max-width: 1100px) {
+        padding: 0;
+    }
+}

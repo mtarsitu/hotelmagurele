@@ -1,0 +1,59 @@
+.contactToptContent {
+    position: relative;
+    font-family: "Orbitron", sans-serif !important;
+}
+
+.topCover {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(255 255 255 / 41%);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    top: 0;
+}
+
+.topTitle {
+    font-size: 90px;
+    font-weight: bold;
+
+    @media screen and (max-width: 600px) {
+        font-size: 45px;
+    }
+}
+
+.topSubTitle {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+
+    @media screen and (max-width: 600px) {
+        font-size: 25px;
+    }
+}
+
+.topButton {
+    background: rgba(0, 128, 0, 0.6509803922);
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    border-radius: 12px;
+    padding: 1%;
+    border: none;
+    min-width: 150px;
+    min-height: 50px;
+}
+
+.mapContent {
+    padding: 0 50px;
+
+    @media screen and (max-width:610px) {
+        padding: 0 10px 50px;
+    }
+}

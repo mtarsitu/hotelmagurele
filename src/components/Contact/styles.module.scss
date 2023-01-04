@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+.contact_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Jura', sans-serif;
+    gap: 30px;
+
+    @media (max-width: 610px) {
+        flex-direction: column;
+        padding: 10px;
+        align-items: flex-start;
+    }
+}
+
+.contact_labels {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Jura', sans-serif;
+
+    @media screen and (max-width: 610px) {
+        flex-direction: column;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 20px;
+        color: grey;
+        font-size: 12px;
+
+        input {
+            font-size: 18px;
+            width: 90%;
+            height: 35px;
+            border-bottom: 1px solid black;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+
+        select {
+            width: 90%;
+            height: 35px;
+            font-size: 16px;
+        }
+    }
+}
+
+.contact_message {
+    font-family: 'Jura', sans-serif;
+
+    label {
+        text-align: left;
+        color: grey;
+        font-size: 12px;
+    }
+
+    input {
+        font-size: 18px;
+    }
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.submit_button {
+    font-family: 'Jura', sans-serif;
+    margin: auto;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    background: rgba(0, 128, 0, 0.6509803922);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.submit_button:hover {
+    background-color: #26d635;
+}
+
+.error {
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    align-items: center;
+    color: red;
+    gap: 5px;
+}
+
+.contact_form {
+    font-family: 'Jura', sans-serif;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    @media (max-width: 610px) {
+        width: 100%;
+    }
+}
+
+.contact_text {
+    font-family: 'Jura', sans-serif;
+    width: 30%;
+    text-align: left;
+
+    a {
+        color: green;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #60be43;
+    }
+
+    @media (max-width: 610px) {
+        width: 80%;
+    }
+}
+
+.logo_icons {
+    display: flex;
+    gap: 5%;
+    font-family: 'Jura', sans-serif;
+
+    svg {
+        color: green;
+        cursor: pointer;
+    }
+}
+
+.contact_form_container {
+    font-family: 'Jura', sans-serif;
+    padding: 150px 50px;
+
+    h1 {
+        text-align: left;
+        margin-left: 8%;
+
+        @media (max-width: 910px) {
+            margin-bottom: 5%;
+        }
+
+        @media (max-width: 810px) {
+            margin-bottom: 10%;
+        }
+
+        @media (max-width: 710px) {
+            margin-bottom: 20%;
+        }
+
+        @media (max-width: 610px) {
+            margin-bottom: 100px;
+            margin-left: 1%;
+        }
+
+        @media (max-width: 500px) {
+            margin-left: 2%;
+        }
+
+        @media (max-width: 400px) {
+            margin-left: 3%;
+        }
+    }
+
+    h2 {
+        margin-top: 50px;
+    }
+
+    @media (max-width: 910px) {
+        padding: 50px 50px;
+    }
+
+    @media (max-width: 710px) {
+        padding: 50px 20px;
+    }
+}
+
+.submit_button:disabled {
+    background: rgb(0 128 0 / 39%);
+    cursor: not-allowed;
+  }

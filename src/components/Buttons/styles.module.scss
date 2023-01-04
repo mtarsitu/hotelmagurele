@@ -1,0 +1,42 @@
+.animated_button {
+    width: 45px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+    background-color: transparent;
+    animation: closeTab 1s;
+    transition: width 1s;
+    overflow: hidden;
+}
+
+.animated_button:hover {
+    width: 100px;
+}
+
+.icon {
+    transform: rotate(0deg);
+    color: grey;
+    animation: reversespin 1s ease-out;
+    transition: transform 1s;
+}
+
+.animated_button:hover .btn_text {
+    display: block;
+}
+
+.animated_button:hover .icon {
+    transform: rotate(360deg);
+}
+
+.btn_text {
+    color: grey;
+    display: none;
+    margin: 0 auto;
+
+}

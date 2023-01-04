@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 100px 100px;
+    font-family: 'Jura', sans-serif;
+
+    div {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+.text_input {
+    border: none;
+}
+
+.dashboard_modal {
+    font-family: 'Jura', sans-serif;
+    width: 99%;
+    height: 99%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.919);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 5px solid lightcoral;
+    position: absolute;
+
+}
+
+.modal_buttons {
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    gap: 30px;
+
+    input {
+        width: 100px;
+        height: 50px;
+    }
+}
+
+.input_add_row {
+    font-family: 'Jura', sans-serif;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.input_add_row:hover {
+    background-color: rgb(7, 148, 7);
+    box-shadow: 1px 1px black;
+}
+
+.input_save {
+    font-family: 'Jura', sans-serif;
+    padding: 1%;
+    cursor: pointer;
+
+}
+
+.input_save:hover {
+    box-shadow: 1px 1px black;
+
+}
+
+.input_delete {
+    font-family: 'Jura', sans-serif;
+    background-color: red;
+    padding: 1%;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.input_delete:hover {
+    background-color: lightcoral;
+    box-shadow: 2px 2px black;
+}
+
+.dashboard_content {
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    background-color: white;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+}
+
+.back_button {
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    justify-content: center;
+}

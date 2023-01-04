@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+.step_preview_container {
+    display: flex;
+    text-align: left;
+    color: white;
+    font-family: 'Jura', sans-serif;
+}
+
+.step_preview_number {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Jura', sans-serif;
+}
+
+.step_preview_title {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Jura', sans-serif;
+}
+
+.step_preview_text {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: 'Jura', sans-serif;
+}
+
+.step_preview_1 {
+    padding: 5%;
+    width: 15%;
+    background-color: #a3c585;
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step_preview_2 {
+    padding: 5%;
+    width: 15%;
+    background-color: #95bb72;
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step_preview_3 {
+    padding: 5%;
+    width: 15%;
+    background-color: #87ab69;
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step_preview_4 {
+    padding: 5%;
+    width: 15%;
+    background-color: #75975e;
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .step_preview_container {
+        flex-direction: column;
+    }
+
+    .step_preview_1 {
+        width: auto;
+    }
+
+    .step_preview_2 {
+        width: auto;
+    }
+
+    .step_preview_3 {
+        width: auto;
+    }
+
+    .step_preview_4 {
+        width: auto;
+    }
+}
+
+.stepper_ul{
+    margin-left: -25px;
+}

@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+.despr_noi {
+    width: 100%;
+    font-family: 'Jura', sans-serif;
+}
+
+.despre_noi_subheader {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    padding: 5% 10% 0 10%;
+    font-family: 'Jura', sans-serif;
+}
+
+.big_height_picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.despre_noi_subheader_title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Jura', sans-serif;
+}
+
+.despre_noi_subheader_subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Jura', sans-serif;
+}
+
+.despre_noi_subheader_text {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Jura', sans-serif;
+}
+
+.serviciile_noastre {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 1% 0 10%;
+    gap: 10px;
+    width: 50%;
+    font-family: 'Jura', sans-serif;
+}
+
+.servicii_tab_open {
+    max-height: 1000px;
+    box-shadow: 3px 2px 20px 1px #888;
+    overflow: hidden;
+    padding: 1%;
+    border-radius: 10px;
+    font-family: 'Jura', sans-serif;
+    transition: max-height 1s ease-in;
+}
+
+.servicii_tab_close {
+    box-shadow: 3px 2px 20px 1px #888;
+    overflow: hidden;
+    padding: 1%;
+    border-radius: 10px;
+    font-family: 'Jura', sans-serif;
+    max-height: 25px;
+    transition: max-height 0.5s ease-out;
+}
+
+.servicii_icon {
+    padding-right: 10px;
+    font-family: 'Jura', sans-serif;
+}
+
+.tab_span {
+    font-family: 'Jura', sans-serif;
+}
+
+.tab_text {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Jura', sans-serif;
+}
+
+.tab_title {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Jura', sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicii_title {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Jura', sans-serif;
+}
+
+.servici_gif_section {
+    display: flex;
+    font-family: 'Jura', sans-serif;
+}
+
+.gif_info {
+    padding-top: 5%;
+    font-family: 'Jura', sans-serif;
+}
+
+.romania_status {
+    font-family: 'Jura', sans-serif;
+    background-image: url("../../public/images/about-us-romania.jpg");
+    min-height: 1000px;
+    background-size: cover;
+    background-position: top;
+    margin-top: 100px;
+    position: relative;
+}
+
+.romania_status_cover {
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.631372549);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+.romania_status_title {
+    font-family: 'Jura', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10% 10% 0;
+    text-align: left;
+}
+
+.romania_status_subtitle {
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 0 10%;
+    text-align: left;
+}
+
+.romania_status_chart {
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.status_preview {
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16%;
+    text-align: center;
+}
+
+.status_100 {
+    font-family: 'Jura', sans-serif;
+    height: 50px;
+    width: 100%;
+    background-color: #282c347a;
+    margin: 5% 0;
+    border-radius: 100px;
+}
+
+.status_metale_feroase {
+    font-family: 'Jura', sans-serif;
+    height: 50px;
+    width: 55%;
+    background-color: #77d43d;
+    animation-name: feroase;
+    animation-duration: 1s;
+    border-radius: 100px;
+}
+
+.status_metale_neferoase {
+    font-family: 'Jura', sans-serif;
+    height: 50px;
+    width: 50%;
+    background-color: #5eb02a;
+    animation-name: neferoase;
+    animation-duration: 1s;
+    border-radius: 100px;
+}
+
+.status_hartie_carton {
+    font-family: 'Jura', sans-serif;
+    height: 50px;
+    width: 45%;
+    background-color: #3d8211;
+    animation-name: hartieCarton;
+    animation-duration: 1s;
+    border-radius: 100px;
+}
+
+.status_materie_organica {
+    font-family: 'Jura', sans-serif;
+    height: 50px;
+    width: 15%;
+    background-color: #2f6b09;
+    animation-name: organic;
+    animation-duration: 1s;
+    border-radius: 100px;
+}
+
+@keyframes organic {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 15%;
+    }
+}
+
+@keyframes hartieCarton {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 45%;
+    }
+}
+
+@keyframes neferoase {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes feroase {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 55%;
+    }
+}
+
+.info_section {
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.info_text_section {
+    font-family: 'Jura', sans-serif;
+    max-width: 60%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5%;
+    width: 95%;
+}
+
+.info_hr {
+    font-family: 'Jura', sans-serif;
+    height: 10px;
+    background-color: green;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.info_text_title {
+    font-family: 'Jura', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+
+    @media screen and (max-width: 700px) {
+        font-size: 25px;
+    }
+}
+
+.info_text {
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+@media screen and (max-width: 1100px) {
+    .servici_gif_section {
+        flex-direction: column-reverse;
+    }
+
+    .gif_info {
+        padding-right: 0;
+    }
+
+    .serviciile_noastre {
+        width: auto;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .romania_status_chart {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .romania_status {
+        height: 1725px;
+        background-color: black;
+        background-repeat: no-repeat;
+    }
+
+    .status_preview {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .info_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .info_text_section {
+        width: auto;
+        max-width: 100%;
+        padding: 5%;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .slide_cover {
+        gap: 0;
+    }
+
+    .slide_title {
+        font-size: 30px;
+    }
+
+    .despre_noi_subheader {
+        padding: 18% 8%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .romania_status {
+        height: 1800px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .romania_status {
+        height: 2000px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .gif_info {
+        width: auto;
+        height: auto;
+    }
+
+    .despre_noi_gif {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .romania_status {
+        height: 2200px;
+    }
+
+    .servicii_icon {
+        padding-right: 1px;
+    }
+}
+
+.vid_cover {
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    background-color: #ffffff6e;
+    z-index: 100;
+    height: 337px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1165px) {
+    .despre_noi_gif {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .serviciile_noastre {
+        padding-right: 0;
+        padding: 0;
+    }
+}

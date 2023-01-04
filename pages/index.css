@@ -1,0 +1,39 @@
+.slick-dots {
+    left: 0%;
+}
+
+@media (max-width: 1200px) {
+    .slick-dots {
+        left: 3%;
+    }
+}
+
+@media (max-width: 890px) {
+    .slick-dots {
+        left: 5%;
+    }
+}
+
+@media (max-width: 700px) {
+    .slick-dots {
+        left: 8%;
+    }
+}
+
+@media (max-width: 500px) {
+    .slick-dots {
+        left: 10%;
+    }
+}
+
+@media (max-width: 400px) {
+    .slick-dots {
+        left: 15%;
+    }
+}
+
+@media (max-width: 350px) {
+    .slick-dots {
+        left: 20%;
+    }
+}

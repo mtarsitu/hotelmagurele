@@ -1,0 +1,21 @@
+.footer_mobile_container {
+  z-index: 10;
+  background-color: rgb(237 237 237 / 82%);
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13%;
+}
+
+.footer_btn {
+  border-radius: 10px;
+  border: none;
+  padding: 3px 8px;
+  a {
+    color: green;
+  }
+}
