@@ -241,7 +241,7 @@ export default function Homepage() {
             >
               <Link href="#calculator" prefetch={false}>
                 <button>
-                  Vezi tipuri de camere!
+                  Costuri cazare 2023!
                 </button>
               </Link>
             </div>

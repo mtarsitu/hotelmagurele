@@ -4,7 +4,6 @@ import { GiReceiveMoney, GiMeltingMetal, GiHandTruck } from "react-icons/gi";
 import { useEffect, useState } from "react";
 import TabIcon from "../../src/components/TabIcon";
 import StepPreview from "../../src/components/StepPreview";
-import SliderParteneri from "../../src/components/SliderParteneri/slider-parteneri";
 import Image from "next/image";
 import useWindowSize from "../../src/hooks/useWindowSize";
 import LoadingComp from "../../src/components/Loading";
@@ -89,19 +88,27 @@ function DespreNoi() {
             Despre noi
           </div>
           <div className={styles.despre_noi_subheader_title}>
-            In continua dezvoltare, pentru clientii nostri!
+            In continua dezvoltare, pentru servicii ireprosabile!
           </div>
           <div className={styles.despre_noi_subheader_text}>
-            DeseuriElectronice este o companie specializată în colectarea și
-            valorificarea de deșeuri electronice si nu numai. Colectarea
-            materialelor feroase sau neferoase face parte din activitatea
-            noastra de zi cu zi.
+            Orasul Magurele se afla asezat in partea de sud-vest al Municipiului
+            Bucuresti. Orasul are unitati cu activitati de cercetare, invatamant
+            si industriale de interes national si international ca: Institutul
+            de Fizica Atomica, o sectie a Inteprinderii Electromagnetica si
+            Societatea Cooperativa de Consum, cu activitati diversificate,
+            cuprinzand si un Complex Hotel-Restaurant deosebit care este
+            amplasat in centrul localitatii cu acelasi nume,pe vestita
+            “Platforma Magurele”.
           </div>
           <div className={styles.despre_noi_subheader_text}>
-            Principalele materiale cu care lucram sunt cele electrice sau
-            electronice si baterii uzate. De asemnea, colectam si valorificam si
-            materiale precum fierul vechi, cupru, inoxul, alama,
-            plumblul,baterii
+            Complexul Hotel-Restaurant este destinat pt servicii de cazare,
+            alimentatie publica si frizerie-coafura. Hotelul dispune de 64 de
+            camere dispuse pe patru nivele dotate cu 2 si 3 paturi cu grup
+            sanitar propriu, incalzire centrala, cablu TV… si parcare gratuita.
+            Restaurantul Hotelului dispune de 2 saloane cu o capacitate de 240
+            locuri si va ofera specialitati ale bucatariei traditionale
+            romanesti cat si internationale. Aici se pot organiza in conditii
+            deosebite, mese festive, aniversari si mese de protocol.
           </div>
         </div>
         <div className={styles.servici_gif_section}>
@@ -117,19 +124,17 @@ function DespreNoi() {
               >
                 <div>
                   <GiReceiveMoney className={styles.servicii_icon} />
-                  Recuperarea si Valorificarea
+                  Pastrare Bagaje
                 </div>
                 <TabIcon className={styles.tab_span} icon={tabSpan.tab1} />
               </div>
               <div className={styles.tab_text}>
-                La centrul nostru de reciclare DEEE-uri.ro sau compania Spending
-                Elements Best Solution SRL, principiul nostru este sa ne angajăm
-                să gestionăm responsabil deșeurile electronice. Oferim servicii
-                gratuite de colectare a deșeurilor electronice și putem oferi
-                plata în avans pentru recuperare și reciclare. Credem că ne
-                facem partea pentru a proteja mediul înconjurător, iar scopul
-                nostru este să menținem deșeurile electronice dăunătoare departe
-                de gropile de gunoi și departe de pericole.
+                Noi stim ca in ziua in care trebuie sa iti faci check-out
+                probabil vei dori sa te mai plimbi prin preajma. Pentru ca
+                lucrul acesta sa fie posibil, noi iti oferim o camera pentru
+                bagaje. Astfel, nu conteaza ca ai eliberat camera, lucrurile
+                tale vor fi in siguranta la noi. Tu vei putea sa mai hoinaresti
+                cateva ore, fara sa ai grija bagajelor.
               </div>
             </div>
             <div className={tabSection.tab2}>
@@ -142,18 +147,24 @@ function DespreNoi() {
               >
                 <div>
                   <GiMeltingMetal className={styles.servicii_icon} />
-                  Dezmembrari si Dezafectari
+                  Mic dejun inclus
                 </div>
                 <TabIcon className={styles.tab_span} icon={tabSpan.tab2} />
               </div>
               <div className={styles.tab_text}>
-                Dezmembrare și Dezafectare gratuită pentru deșeuri electronice,
-                materiale feroase și materiale neferoase. De asemenea, luăm
-                echipamente informatice și orice alte metale neferoase. Avem un
-                personal complet instruit și certificat pentru a îndeplini toate
-                aspectele muncii. Vom colabora cu dvs. pentru a dezvolta un plan
-                care să răspundă nevoilor dumneavoastră specifice și apoi vom
-                executa acel plan într-un mod sigur și eficient.
+                Micul dejun, secretul energiei. Micul dejun te ajuta sa ai
+                energie in prima parte a zilei, momentul in care organismul este
+                odihnit dupa somnul de noapte si ai cele mai mari sanse sa dai
+                randament ridicat la…orice ti-ai propune. Masa de dimineata
+                stimuleaza activitatea cerebrala. Incepe si tu ziua cu un mic
+                dejun consistent.Dezmembrare și Dezafectare gratuită pentru
+                deșeuri electronice, materiale feroase și materiale neferoase.
+                De asemenea, luăm echipamente informatice și orice alte metale
+                neferoase. Avem un personal complet instruit și certificat
+                pentru a îndeplini toate aspectele muncii. Vom colabora cu dvs.
+                pentru a dezvolta un plan care să răspundă nevoilor
+                dumneavoastră specifice și apoi vom executa acel plan într-un
+                mod sigur și eficient.
               </div>
             </div>
             <div className={tabSection.tab3}>
@@ -166,41 +177,70 @@ function DespreNoi() {
               >
                 <div>
                   <GiHandTruck className={styles.servicii_icon} />
-                  Transport si Cantarire
+                  Grupuri sanitare propri
                 </div>
                 <TabIcon className={styles.tab_span} icon={tabSpan.tab3} />
               </div>
               <div className={styles.tab_text}>
-                Oferim controlul greutății și transportul gratuit pentru fiecare
-                deșeu feros sau neferoas. Acest lucru ne permite să oferim
-                clienților noștri cele mai precise și actualizate informații
-                despre nevoile lor de reciclare. Avem, de asemenea, o mare
-                varietate de opțiuni de transport din care să alegeți, astfel
-                încât să puteți găsi cea mai eficientă și mai rentabilă soluție
-                pentru afacerea dvs.
+                Toate camerele dispun de grupuri sanitare propri. Curatatea si
+                dezinfectarea se efectueaza in fiecare zi pentru o sedere cat
+                mai linistita si placuta. Cabina de dus, lavoar si vas WC.
+                Prosoape si toate produsele necesare ingrijirii corporale
+                zilnice sunt incluse in pret!
               </div>
             </div>
           </div>
-          <div className={styles.gif_info}>
-            <SliderParteneri />
-          </div>
+          
         </div>
         <div className={styles.romania_status}>
           <div className={styles.romania_status_cover}>
-            <div className={styles.romania_status_title}>
-              CÂT RECICLEAZĂ ROMÂNIA
-            </div>
+            <div className={styles.romania_status_title}>Orasul Magurele</div>
             <div className={styles.romania_status_subtitle}>
-              România produce 5,8 milioane de tone de deşeuri pe an, cu o medie
-              de 272 de kilograme pe an pe cap de locuitor şi cu o rată de
-              colectare de doar 82,3%, arată studiul Waste Atlas, publicat de
-              organizaţia D-Waste. Din acest total, România reciclează doar 3%,
-              fiind al doilea cel mai scăzut nivel din Uniunea Europeană. Cel
-              mai scăzut nivel îl înregistrează Bulgaria, care are o rată de
-              reciclare de sub 1%. Impreuna putem pastra Romania mai curata, cu
-              responsabilitate si atentie.
+              În 1595, înaintea bătăliei de la Călugăreni, Mihai Viteazul și-a
+              așezat tabăra la Măgurele. După luptele de la Călugăreni, turcii
+              au prădat și satul Măgurele, locuitorii risipindu-se în pădurile
+              din jur și în alte sate. La sfârșitul secolului al XIX-lea, comuna
+              rurală Măgurele făcea parte din plasa Sabarul a județului Ilfov,
+              și era formată din satele Dumitrana, Filipescu, Ghermani și
+              Otetelișanu, totalizând 1351 de locuitori care trăiau în 285 de
+              case. În comună funcționau o moară cu apă, două școli mixte și
+              trei biserici — la Dumitrana, Ghermani și Otetelișanu. În plus
+              față de acestea, acolo exista și un institutut de fete, o școală
+              specială care, pe lângă curricula din școlile de stat, pregătea
+              elevele în croitorie, gospodărie casnică și alte astfel de
+              discipline. Institutul era finanțat din moștenirea lăsată de
+              boierul I. Otetelișanu, decedat în 1876 și în 1900 ajunsese să
+              aibă 80 de eleve (câte 16 în fiecare an). Tot atunci, pe
+              teritoriul actual al orașului exista și comuna Vârteju-Nefliu,
+              formată din satele Vârteju, Pruni, Nefliu și Chirca, cu 1191 de
+              locuitori. În comuna Vârteju-Nefliu funcționau două mori de apă, o
+              școală mixtă la Vârteju și două biserici la Nefliu și Vârteju. În
+              1925, cele două comune figurau cu aceleași compoziții în plasa
+              Domnești a județului Ilfov. În 1950, comunele Măgurelele și
+              Vârteju Nefliu au trecut în raionul V.I. Lenin al orașului
+              republican București. În 1981, comuna a trecut la Sectorul Agricol
+              Ilfov din subordinea municipiului București, sector devenit în
+              1997 județul Ilfov. În anul 1957, în cadrul Institutului de Fizică
+              Atomică (IFA), la Măgurele s-a inaugurat primul reactor nuclear
+              VVRS, un reactor de fisiune, și primul ciclotron U120 din Europa
+              de est, de fabricație sovietică, instalate în afara Uniunii
+              Sovietice. Continuatorul său este IFIN – Institutul de Fizică și
+              Inginerie Nucleară „Horia Hulubei”. Prin Hotărârea nr. 418 din 25
+              aprilie 2002 s-a decis oprirea definitivă în vederea dezafectării
+              a Reactorului nuclear (RN) VVR-S de cercetare și producție de
+              radioizotopi din cadrul Institutului Național de
+              Cercetare-Dezvoltare pentru Fizică și Inginerie Nucleară “Horia
+              Hulubei” (IFIN-HH), București-Măgurele. Ca urmare, s-a hotărât și
+              dezafectarea reactorului nuclear de cercetare VVR-S Măgurele (care
+              funcționa după o tehnologie sovietică) și repatrierea în Federația
+              Rusă a combustibilului nuclear ars de tip S-36 utilizat în
+              reactorul VVR-S Măgurele. La Institutul de Fizică Atomică de la
+              Măgurele va fi găzduită o parte din proiectul Extreme Light
+              Infrastructure (ELI), care are ca scop construirea unui laser de
+              1.000 de ori mai puternic decât cel mai mare laser existent în
+              prezent în lume.
             </div>
-            <div className={styles.romania_status_chart}>
+            {/* <div className={styles.romania_status_chart}>
               <div className={styles.status_preview}>
                 Metale Feroase
                 <div className={styles.status_100}>
@@ -229,7 +269,7 @@ function DespreNoi() {
                 </div>
                 {compost} %
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className={styles.info_section}>
@@ -251,36 +291,30 @@ function DespreNoi() {
             )}
           </div>
           <div className={styles.info_text_section}>
-            <div className={styles.info_text_title}>De ce DEE-uri.ro?</div>
+            <div className={styles.info_text_title}>Hotel Magurele</div>
             <div className={styles.info_hr}></div>
             <div className={styles.info_text}>
-              Compania noastra, Spending Elements Best Solution SRL, are o vasta
-              istorie in colectarea si valorificarea deseurilor electronice,
-              deseurilor feroase sau neferoase. Tratam orice client cu aceeasi
-              seriozitate indiferent de cantitatea detinuta de aceasta. Putem
-              colecta orice cantitate de deseuri efectuand plata pe loc. Detinem
-              un parc auto specializat pentru ridicarea deseurilor electrice sau
-              electronice cat si masini dotate special pentru ridicarea
-              deseurilor feroase sau neferoase intr-un timp scurt pentru a nu
-              incurca activitatiile clientilor nostri. De asemenea participam in
-              mod frecvent la licitatii publice, unde societatea noastra trebuie
-              sa fie impecabila din toate punctele de vedere si unde este
-              necesar sa achitam contractul integral in avans.
+              Hotel – mic dejun inclus, pastrare bagaje, ascensor pt persoane,
+              apel trezire, comenzi taxi, parcare gratuita. Toate camerele sunt
+              dotate cu balcon, mobila perfecta de lemn in stil clasic, dusuri
+              si grupuri sanitare propri, televiziune prin cablu, internet
+              wireless. Pentru grupuri intre 10 si 30 de persoane cu un sejur de
+              cel putin 3 zile tarifele sant negociabile cu acordarea unui
+              discount de 5-15%
             </div>
             <div className={styles.info_text}>
-              Centrul de colectare DEEE-uri are ca si obiectiv pe termen lung
-              dezvolatarea reciclarii intr-un mod demn de Uniunea Europeană. Ne
-              axam sa fim un partener de incredere pentru toate societatiile
-              comerciale ce au nevoie de serviciile noastre.
+            Iti faci griji unde iti lasi catelul sau pisica cand ai treaba in
+              Orasul Magurele sau Bucuresti? Nu iti mai face, noi iti oferim
+              posibilitatea de a lua animalul de companie cu tine in deplasari.
+              Asa iti poti face sederea cat mai comfortabila. Dispunem de
+              castroane pentru apa sau mancare.
             </div>
             <div className={styles.info_text}>
-              DEEE-uri sau Spending Elements Best Solution SRL este o companie
-              de reciclare a tehnologiei, cu accent pe electronice și deșeuri
-              electrice. Oferim o varietate de servicii pentru persoane fizice
-              și companii, inclusiv colectare, valorificare, reciclare și
-              eliminare. Echipa noastră este pasionată de menținerea planetei
-              noastre sănătoase și a oceanelor curate. Ne angajăm în gestionarea
-              responsabilă a deșeurilor.
+              Consideram ca internetul este o necesitatea in anul 2023. De aceea
+              noi il oferim ca si serviciu gratuit inclus in pretul cazarii.
+              Internet de mare viteza si stabil pentru o sedere cat mai
+              relaxanta posibil. Te asteptam la Hotel Magurele pentru a incerca
+              internetul nostru.
             </div>
           </div>
         </div>

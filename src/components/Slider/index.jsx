@@ -43,8 +43,8 @@ export default function DespreNoiSlider() {
             <Slider {...settings}>
                 <div className={styles.slide}>
                     <div className={styles.slide_cover}>
-                        <div className={styles.slide_title}>Despre DEEE-uri.ro</div>
-                        {displaySubtitle && (<div className={styles.slide_subtitle}>Cel mai bun preț pentru deșeurile tale!</div>)}
+                        <div className={styles.slide_title}>Hotel Magurele</div>
+                        {displaySubtitle && (<div className={styles.slide_subtitle}>Facilitati Hotel</div>)}
                         {displayButton && (
                             <div>
                                 <button className={styles.slide_btn} onClick={() => window.location.replace("#despre-noi")}>Vezi mai multe</button>
@@ -64,8 +64,8 @@ export default function DespreNoiSlider() {
                 </div>
                 <div className={styles.slide}>
                     <div className={styles.slide_cover}>
-                        <div className={styles.slide_title}>Poti aduce orice electronic nefolosit!</div>
-                        {displaySubtitle && (<div className={styles.slide_subtitle}>Calculeaza-ti acum pretul!</div>)}
+                        <div className={styles.slide_title}>Te poti caza fara griji!</div>
+                        {displaySubtitle && (<div className={styles.slide_subtitle}>Calculeaza-ti cazarea</div>)}
                         {displayButton && (
                             <div>
                                 <button className={styles.slide_btn} onClick={() => window.location.replace("/calculator")}>Calculator de pret</button>
@@ -86,7 +86,7 @@ export default function DespreNoiSlider() {
                 <div className={styles.slide}>
                     <div className={styles.slide_cover}>
                         <div className={styles.slide_title}>Ne poti contacta oricand</div>
-                        {displaySubtitle && (<div className={styles.slide_subtitle}>DEEE-uri.ro este compania care se muleaza nevoilor tale!</div>)}
+                        {displaySubtitle && (<div className={styles.slide_subtitle}>Hotel Magurele, sau acasa in Magurele</div>)}
                         {displayButton && (
                             <div>
                                 <button className={styles.slide_btn} onClick={() => window.location.replace("/contact")}>Contact</button>

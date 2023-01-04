@@ -94,37 +94,37 @@ export default function CalculatorPage() {
     return (
       <div className={styles.arrange}>
         <h1 style={{ textAlign: "left", marginBottom: "30px" }}>
-          CALCULATOR MATERIALE PREDATE
+          CALCULATOR CAZARE HOTEL MAGURELE
         </h1>
         {inputList.map((input, index) => (
           <div
             key={"dropdown-item" + index}
             className={styles.dropdowns_container}>
             <label className={styles.labels}>
-              Alege materialul
+              Alege camera
               <select
                 index={index}
                 className={styles.dropdown}
                 onChange={(event) => handleFormChange(index, event)}
-                name="material">
+                name="camera">
                 <option value={input.material} selected disabled hidden>
-                  Alege materialul
+                  Alege camera
                 </option>
                 {calculatorInfo.map((info, key) => (
-                  <option key={key} value={info.name} name="material">
+                  <option key={key} value={info.name} name="camera">
                     {info.name}
                   </option>
                 ))}
               </select>
             </label>
             <label className={styles.labels}>
-              Cantitatea detinuta:
+              Perioada cazare
               <input
                 type="number"
                 name="quantity"
                 value={input.quantity}
                 className={styles.numberinput}
-                placeholder="Cantitatea detinuta de tine"
+                placeholder="Alege numarul de zile"
                 onChange={(event) => handleFormChange(index, event)}
               />
             </label>
@@ -171,9 +171,9 @@ export default function CalculatorPage() {
         )}
 
         <div className={styles.topCover}>
-          <div className={styles.topTitle}>Calculator deseuri</div>
+          <div className={styles.topTitle}>Calculator cazare</div>
           <div className={styles.topSubTitle}>
-            Calculeaza pretul total pentru materialele tale!
+            Poti verifica costurile totale de cazare in timp real!
           </div>
           <div>
             <button
@@ -209,8 +209,8 @@ export default function CalculatorPage() {
                       />
                     </div>
                   )}
-                <h1>CEL MAI BUN PREȚ</h1>
-                <h3>Actualizat zilnic</h3>
+                <h1>Hotel Magurele</h1>
+                <h3>Preturi cazare 2023 - actualizate zilnic</h3>
 
                 <table className={styles.table_container}>
                   <tbody>
@@ -249,7 +249,7 @@ export default function CalculatorPage() {
                 </>
               )}
             <div className={styles.result}>
-              <h1>ITI PLATIM, PE LOC:</h1>
+              <h1>Total cazare</h1>
               <span style={{ fontWeight: "bold", fontSize: "30px" }}>
                 RON: {total}
               </span>
@@ -262,8 +262,7 @@ export default function CalculatorPage() {
           </div>
         </div>
         <p style={{ marginTop: "50px", textAlign: "center" }}>
-          Prețul obținut este cu livrarea materialelor de către tine la centrul
-          nostru de reciclare.
+          Pretul include Micul Dejun!
         </p>
       </div>
       <Blog />
