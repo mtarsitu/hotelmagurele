@@ -210,7 +210,7 @@ export default function Homepage() {
                 className={styles.homepage_video}
               >
                 <source
-                  src="../images/AdobeStock_234925848.mov"
+                  src="../images/hotel.mp4"
                   type="video/mp4"
                 />
               </video>
