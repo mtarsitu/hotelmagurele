@@ -124,7 +124,7 @@ export default function Navbar() {
 
             </ul>
             <div className={styles.mobile_icons}>
-                <Link href="https://www.facebook.com/deeeuri.ro" prefetch={false}>
+                <Link href="https://www.facebook.com/hotelmagurele.ro" prefetch={false}>
                   <a target="_blank" rel="noreferrer">
                     <FacebookIcon />
                   </a>
