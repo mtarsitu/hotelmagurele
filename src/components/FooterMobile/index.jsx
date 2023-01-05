@@ -24,7 +24,7 @@ export default function FooterMobile() {
           </Link>
         </button>
         <button className={styles.footer_btn}>
-          <Link href="https://www.facebook.com/deeeuri.ro" prefetch={false}>
+          <Link href="https://www.facebook.com/hotelmagurele.ro" prefetch={false}>
             <a>
               <FacebookIcon />
             </a>
