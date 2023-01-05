@@ -36,6 +36,7 @@ export default function CamerePage() {
   const handleFormChange = (index, event) => {
     let data = [...inputList];
     data[index][event.currentTarget.name] = event.currentTarget.value;
+    console.log(data);
     setInputList(data);
     addValuesToItems();
     calculateTotal();
@@ -60,7 +61,7 @@ export default function CamerePage() {
   function addValuesToItems() {
     for (let i = 0; i < calculatorInfo.length; i++) {
       for (let k = 0; k < inputList.length; k++) {
-        if (inputList[k].material === calculatorInfo[i].name) {
+        if (inputList[k].camera === calculatorInfo[i].name) {
           inputList[k].value = calculatorInfo[i].price;
         }
       }
@@ -70,7 +71,8 @@ export default function CamerePage() {
   function calculateTotal() {
     let totalCalculation = 0;
     for (let j = 0; j < inputList.length; j++) {
-      if (inputList[j].quantity && inputList[j].material) {
+      if (inputList[j].quantity && inputList[j].camera) {
+        console.log(inputList[j].material)
         totalCalculation +=
           parseInt(inputList[j].quantity) * inputList[j].value;
       }

@@ -34,7 +34,6 @@ export default function Homepage() {
       results.push(doc.data());
       setCalculatorInfo(results);
     });
-    console.log(results);
   }
 
   //Logic for inputs at the calculator part
