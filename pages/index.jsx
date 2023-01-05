@@ -330,7 +330,7 @@ export default function Homepage() {
                 width > 775 && (
                   <>
                     <Image
-                      src={"/images/logosite.png"}
+                      src={"/images/logo-magurele.jpeg"}
                       objectFit="cover"
                       objectPosition="center"
                       alt="logo"

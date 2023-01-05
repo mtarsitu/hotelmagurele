@@ -15,7 +15,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Deseuri electronice</title>
+        <title>Hotel Magurele</title>
         <meta name="robots" content="index,follow,all" />
         <meta name="date" content="2021-08-08" />
         <meta name="revisit-after" content="after 30 days" />

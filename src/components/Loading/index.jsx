@@ -19,7 +19,7 @@ export default function LoadingComp() {
             <div className={styles.loading_component}>
                 <div className={styles.loading_spinner}>
                     <Image
-                        src={"/images/logosite.png"}
+                        src={"/images/logo-magurele.jpeg"}
                         alt={"logo"}
                         width={100}
                         height={100}
