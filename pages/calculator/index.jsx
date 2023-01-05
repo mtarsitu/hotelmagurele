@@ -24,7 +24,7 @@ export default function CalculatorPage() {
   const [loading, setLoading] = useState(true);
 
   async function getData() {
-    const querySnapshot = await getDocs(collection(db, "calculator"));
+    const querySnapshot = await getDocs(collection(db, "camere"));
     const results = [];
     querySnapshot.forEach((doc) => {
       results.push(doc.data());

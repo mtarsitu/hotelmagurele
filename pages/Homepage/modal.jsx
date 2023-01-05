@@ -48,7 +48,7 @@ export default function Modal({ showModal }) {
     } else {
       let templateParams = {
         subject: "Nou mail de la calculatorul de deseuri !",
-        content: "O persoana a folosit calculatorul de deseuri:",
+        content: "Un client a folosit formularul de cazari:",
         name: data.name,
         prenume: data.prenume,
         societate: data.societate,
@@ -71,7 +71,7 @@ export default function Modal({ showModal }) {
     <div className={styles.modal_container}>
       <div className={styles.modal_text_container}>
         <h3 className={styles.modal_title}>
-          DATELE TALE SI ADRESA DE RIDICARE
+          Datele tale
           <CloseIcon
             style={{ float: "right", cursor: "pointer" }}
             onClick={() => showModal(false)}
@@ -138,7 +138,7 @@ export default function Modal({ showModal }) {
             </label>
           </div>
 
-          <div className={styles.modal_inputs}>
+          {/* <div className={styles.modal_inputs}>
             <label className={styles.modal_labels}>
               {isError && data.strada === "" && (
                 <span className={styles.error}>
@@ -169,7 +169,7 @@ export default function Modal({ showModal }) {
                 onChange={(e) => handleChange(e)}
               />
             </label>
-          </div>
+          </div> */}
 
           <div className={styles.modal_inputs}>
             <label className={styles.modal_labels}>
