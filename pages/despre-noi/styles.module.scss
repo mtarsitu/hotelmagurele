@@ -50,7 +50,7 @@
 
 .servicii_tab_open {
     max-height: 1000px;
-    box-shadow: 3px 2px 20px 1px #888;
+    box-shadow: 3px 2px 20px 1px #E6E2DD;
     overflow: hidden;
     padding: 1%;
     border-radius: 10px;
@@ -59,7 +59,7 @@
 }
 
 .servicii_tab_close {
-    box-shadow: 3px 2px 20px 1px #888;
+    box-shadow: 3px 2px 20px 1px #E6E2DD;
     overflow: hidden;
     padding: 1%;
     border-radius: 10px;
@@ -169,7 +169,7 @@
     font-family: 'Jura', sans-serif;
     height: 50px;
     width: 100%;
-    background-color: #282c347a;
+    background-color: #373A36;
     margin: 5% 0;
     border-radius: 100px;
 }
@@ -178,7 +178,7 @@
     font-family: 'Jura', sans-serif;
     height: 50px;
     width: 55%;
-    background-color: #77d43d;
+    background-color: #D48166;
     animation-name: feroase;
     animation-duration: 1s;
     border-radius: 100px;
@@ -188,7 +188,7 @@
     font-family: 'Jura', sans-serif;
     height: 50px;
     width: 50%;
-    background-color: #5eb02a;
+    background-color: #D48166;
     animation-name: neferoase;
     animation-duration: 1s;
     border-radius: 100px;
@@ -198,7 +198,7 @@
     font-family: 'Jura', sans-serif;
     height: 50px;
     width: 45%;
-    background-color: #3d8211;
+    background-color: #D48166;
     animation-name: hartieCarton;
     animation-duration: 1s;
     border-radius: 100px;
@@ -208,7 +208,7 @@
     font-family: 'Jura', sans-serif;
     height: 50px;
     width: 15%;
-    background-color: #2f6b09;
+    background-color: #D48166;
     animation-name: organic;
     animation-duration: 1s;
     border-radius: 100px;
@@ -274,7 +274,7 @@
 .info_hr {
     font-family: 'Jura', sans-serif;
     height: 10px;
-    background-color: green;
+    background-color: #D48166;
     border-radius: 10px;
     width: 100%;
 }
@@ -321,7 +321,7 @@
 
     .romania_status {
         height: 1725px;
-        background-color: black;
+        background-color: #373A36;
         background-repeat: no-repeat;
     }
 
@@ -399,7 +399,7 @@
 .vid_cover {
     font-family: 'Jura', sans-serif;
     position: absolute;
-    background-color: #ffffff6e;
+    background-color: #E6E2DD;
     z-index: 100;
     height: 337px;
     width: 100%;

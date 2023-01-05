@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
 
+
+
 .calculator_container {
   font-family: 'Jura', sans-serif;
   display: flex;
@@ -146,7 +148,7 @@
   margin: auto;
   border-radius: 12px;
   border: none;
-  background: rgba(0, 128, 0, 0.6509803922);
+  background: #D48166;
   color: white;
   margin-top: 20px;
   padding: 15px;
@@ -154,7 +156,7 @@
 
 .modal_container {
   font-family: 'Jura', sans-serif;
-  background: #80808091;
+  background: #E6E2DD;
   z-index: 4;
   position: fixed;
   width: 100%;
@@ -163,7 +165,7 @@
 
 .modal_text_container {
   font-family: 'Jura', sans-serif;
-  background: white;
+  background: #E6E2DD;
   position: absolute;
   width: 70%;
   margin: auto;
@@ -184,7 +186,7 @@
   width: 100%;
 
   input[type=text]:focus {
-    border: 3px solid rgb(20, 209, 92);
+    border: 3px solid #D48166;
   }
 }
 
@@ -208,12 +210,12 @@
     font-size: 18px;
     border: 3px solid transparent;
     border-bottom-style: groove;
-    background-color: rgba(128, 128, 128, 0.219);
+    background-color: #E6E2DD;
     border-radius: 10px;
   }
 
   input[type=text]:focus {
-    border: 3px solid rgb(0, 255, 55);
+    border: 3px solid #D48166;
   }
 
 }
@@ -243,13 +245,13 @@
   font-size: 18px;
 
   a {
-    color: green;
+    color: #D48166;
     text-decoration: none;
     font-weight: bold;
   }
 
   a:hover {
-    color: #60be43;
+    color: #d67757;
   }
 }
 
@@ -259,7 +261,7 @@
   padding: 15px;
   border-radius: 12px;
   border: none;
-  background: rgba(0, 128, 0, 0.6509803922);
+  background: #D48166;
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -322,7 +324,7 @@
 
 .topButton {
   font-family: 'Jura', sans-serif;
-  background-color: green;
+  background-color: #D48166;
   font-size: 25px;
   font-weight: 400;
   color: white;

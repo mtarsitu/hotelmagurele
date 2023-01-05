@@ -15,14 +15,14 @@
     font-weight: bold;
     font-size: 18px;
     flex-direction: row;
-    color: black;
+    color: #373A36;
 
     li {
         div {
             text-decoration: none;
             font-family: 'Jura', sans-serif;
             font-weight: 600;
-            color: black;
+            color:  #373A36;
             cursor: pointer;
         }
     }
@@ -75,7 +75,7 @@
     font-size: 20px;
     font-family: 'Orbitron', sans-serif;
     text-decoration: none;
-    color: black;
+    color: #373A36;
     font-weight: bold;
     border: none;
     background-color: transparent;
@@ -107,7 +107,7 @@
     position: fixed;
     width: 50%;
     background: rgb(255 255 255 / 92%);
-    color: black;
+    color: #373A36;
     z-index: 1;
     height: 100%;
     justify-content: flex-start;
@@ -166,13 +166,13 @@
     margin-top: 20px;
     margin-left: 20px;
     svg {
-        color: green;
+        color: #D48166;
     }
 }
 
 .mobile_link_btn {
     padding: 15px;
-    background: rgba(0, 128, 0, 0.6509803922);
+    background: #D48166;
     border-radius: 10px;
     text-align: center;
     margin-top: 30px;

@@ -3,7 +3,7 @@
 .slide_cover {
     font-family: 'Jura', sans-serif;
     position: absolute;
-    background-color: rgb(255 255 255 / 30%);
+    background-color: #E6E2DD;
     height: 100%;
     width: 100%;
     display: flex;
@@ -27,7 +27,7 @@
 .slide_title {
     font-family: 'Jura', sans-serif;
     text-align: center;
-    color: black;
+    color: #373A36;
     font-size: 90px;
     font-weight: bold;
     padding-top: 10%;
@@ -47,7 +47,7 @@
 .slide_subtitle {
     font-family: 'Jura', sans-serif;
     text-align: center;
-    color: black;
+    color: #373A36;
     font-size: 40px;
     font-weight: bold;
     animation-name: slideTitle;
@@ -67,7 +67,7 @@
     font-family: 'Jura', sans-serif;
     padding: 15px;
     border-radius: 12px;
-    background: rgba(0, 128, 0, 0.6509803922);
+    background: #D48166;
     border: none;
     color: white;
     font-size: 25px;
@@ -78,7 +78,7 @@
 }
 
 .slide_btn:hover {
-    background-color: #26d635;
+    background-color: #D48166;
 }
 
 @keyframes slideTitle {

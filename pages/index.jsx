@@ -228,11 +228,9 @@ export default function Homepage() {
                  ati venit!
               </span> */}
               <span className="animate__animated animate__fadeInDown animate__slower animate__delay-2s">
-                Hotel
+                Hotel Magurele
               </span>
-              <span className="animate__animated animate__fadeInDown animate__slower animate__delay-3s">
-                Magurele
-              </span>
+              
             </div>
             <br />
             <div
