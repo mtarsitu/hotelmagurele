@@ -216,7 +216,7 @@ export default function Modal({ showModal }) {
               <input type="checkbox" />
               Sunt de acord cu{" "}
               <a href="/termeni-conditii">
-                Termenele si Conditiile Deseurielectronice.ro
+                Termenele si Conditiile Hotel Magurele
               </a>{" "}
               .
             </label>
