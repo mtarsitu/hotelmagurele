@@ -105,7 +105,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="/calculator" prefetch={false}>
+                <Link href="/camere" prefetch={false}>
                   <div onClick={() => setIsClicked(false)}>
                     Camere
                   </div>
@@ -117,7 +117,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className={styles.mobile_link_btn}>
-                <Link href="/calculator" prefetch={false}>
+                <Link href="/camere" prefetch={false}>
                   <div onClick={() => setIsClicked(false)}>Calculeaza !</div>
                 </Link>
               </li>
