@@ -58,9 +58,8 @@ function Contact() {
       <div className={styles.contact_us}>
         <div className={styles.contact_text}>
           <p style={{ marginTop: "-100px" }}>
-            Doriți un serviciu profesional de colectare feroase și neferoase, ne
-            puteți contacta folosind metodele de mai jos sau completând
-            formularul.
+            Doriti o cazare in afara Bucurestiului dar destul de aproape de Bucuresti? Hotel Magurele este cea
+            mai buna alegere
           </p>
           <div>
             <div>
