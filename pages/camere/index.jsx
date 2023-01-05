@@ -15,7 +15,7 @@ import {
   cursorLoading,
 } from "../../src/hooks/handleCursor";
 
-export default function CalculatorPage() {
+export default function CamerePage() {
   const [calculatorInfo, setCalculatorInfo] = useState([]);
   const [inputList, setInputList] = useState([{ material: "", quantity: "" }]);
   const [total, setTotal] = useState(0);

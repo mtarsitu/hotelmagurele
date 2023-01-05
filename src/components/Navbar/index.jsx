@@ -58,7 +58,7 @@ export default function Navbar() {
              </Link>
            </li>
            <li>
-             <Link href="/calculator" prefetch={false}>
+             <Link href="/camere" prefetch={false}>
                <div>Camere</div>
              </Link>
            </li>
