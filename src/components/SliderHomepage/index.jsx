@@ -58,7 +58,7 @@ export default class MultipleItems extends Component {
           <div className={styles.slider_div_container}>
             <Image
               className={styles.slide_image_div}
-              src="/images/laptop.jpg"
+              src="/images/mic-dejun.jpeg"
               alt="logo"
               width="275"
               height="150"
@@ -85,8 +85,8 @@ export default class MultipleItems extends Component {
           <div className={styles.slider_div_container}>
             <Image
               className={styles.slide_image_div}
-              src="/images/tv.jpg"
-              alt="logo"
+              src="/images/pastrare-bagaje.jpeg"
+              alt="pastrare-bagaje.jpeg"
               width="275"
               height="150"
             />
@@ -108,8 +108,8 @@ export default class MultipleItems extends Component {
           <div className={styles.slider_div_container}>
             <Image
               className={styles.slide_image_div}
-              src="/images/masina-spalat.jpg"
-              alt="logo"
+              src="/images/lift.jpeg"
+              alt="lift.jpeg"
               width="275"
               height="150"
             />
@@ -130,7 +130,7 @@ export default class MultipleItems extends Component {
           <div className={styles.slider_div_container}>
             <Image
               className={styles.slide_image_div}
-              src="/images/frigidere.jpg"
+              src="/images/apel-trezire.jpeg"
               alt="logo"
               width="275"
               height="150"
@@ -152,8 +152,8 @@ export default class MultipleItems extends Component {
           <div className={styles.slider_div_container}>
             <Image
               className={styles.slide_image_div}
-              src="/images/fier.jpg"
-              alt="logo"
+              src="/images/fax-serviciu.png"
+              alt="fax-serviciu.png"
               width="275"
               height="150"
             />
@@ -175,7 +175,7 @@ export default class MultipleItems extends Component {
           <div className={styles.slider_div_container}>
             <Image
               className={styles.slide_image_div}
-              src="/images/alama.jpg"
+              src="/images/hotel-taxi-serviciu.jpeg"
               alt="logo"
               width="275"
               height="150"
@@ -197,7 +197,7 @@ export default class MultipleItems extends Component {
           <div className={styles.slider_div_container}>
             <Image
               className={styles.slide_image_div}
-              src="/images/cupru.jpg"
+              src="/images/parcare-hotel-magurele.jpeg"
               alt="logo"
               width="275"
               height="150"
@@ -220,8 +220,8 @@ export default class MultipleItems extends Component {
           <div className={styles.slider_div_container}>
             <Image
               className={styles.slide_image_div}
-              src="/images/baterie-auto.jpg"
-              alt="logo"
+              src="/images/apartament-superior/apartament-superior-baie2.jpeg"
+              alt="apartament-superior-baie2.jpeg"
               width="275"
               height="150"
             />
@@ -242,8 +242,8 @@ export default class MultipleItems extends Component {
           <div className={styles.slider_div_container}>
             <Image
               className={styles.slide_image_div}
-              src="/images/inox.jpg"
-              alt="logo"
+              src="/images/apartament-superior/cartela-camera.jpeg"
+              alt="cartela-camera.jpeg"
               width="275"
               height="150"
             />
@@ -264,8 +264,8 @@ export default class MultipleItems extends Component {
           <div className={styles.slider_div_container}>
             <Image
               className={styles.slide_image_div}
-              src="/images/inox.jpg"
-              alt="logo"
+              src="/images/apartament-superior/apartament-superior-tv.jpeg"
+              alt="apartament-superior-tv.jpeg"
               width="275"
               height="150"
             />
@@ -286,8 +286,8 @@ export default class MultipleItems extends Component {
           <div className={styles.slider_div_container}>
             <Image
               className={styles.slide_image_div}
-              src="/images/inox.jpg"
-              alt="logo"
+              src="/images/animale-companie-3.jpeg"
+              alt="animale-companie-3.jpeg"
               width="275"
               height="150"
             />
