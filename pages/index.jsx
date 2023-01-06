@@ -170,7 +170,7 @@ export default function Homepage() {
         enableDeclineButton
         hideOnAccept
         cookieName="cookie"
-        style={{ background: "rgba(0, 128, 0, 0.6509803922)" }}
+        style={{ background: "#D48166" }}
         buttonStyle={{
           color: "white",
           fontSize: "18px",
