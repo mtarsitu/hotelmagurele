@@ -187,7 +187,7 @@ export default function Homepage() {
         }}
         expires={150}
       >
-        This website uses cookies to enhance the user experience.{" "}
+        Website-ul Hotel Magurele foloseste cookie.{" "}
       </CookieConsent>
       <BackToTopBtn />
       {isModal && <Modal showModal={setIsModal} />}
