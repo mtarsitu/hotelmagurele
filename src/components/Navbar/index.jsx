@@ -37,12 +37,12 @@ export default function Navbar() {
          <div className={navbar ? styles.navbar_color : styles.navbarcontainer}>
          <Link href="/" prefetch={false}>
            <button className={styles.logo}>
-             {/* <Image
-               src={"/images/logosite.png"}
+             <Image
+               src={"/images/logo-magurele.jpeg"}
                alt="logo"
                width={25}
                height={25}
-             /> */}
+             />
              <span className={styles.logotext}>Hotel Magurele</span>
            </button>
          </Link>

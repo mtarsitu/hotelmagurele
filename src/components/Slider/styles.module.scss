@@ -67,9 +67,9 @@
     font-family: 'Jura', sans-serif;
     padding: 15px;
     border-radius: 12px;
-    background: #D48166;
+    background: #014085;
     border: none;
-    color: white;
+    color: #f5ca40;
     font-size: 25px;
     animation-name: slideTitle;
     animation-duration: 2s;
@@ -78,7 +78,8 @@
 }
 
 .slide_btn:hover {
-    background-color: #D48166;
+    background-color: #f5ca40;
+    color: #014085;
 }
 
 @keyframes slideTitle {

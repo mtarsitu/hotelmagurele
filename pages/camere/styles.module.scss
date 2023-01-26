@@ -148,15 +148,15 @@
   margin: auto;
   border-radius: 12px;
   border: none;
-  background: #D48166;
-  color: white;
+  background: #014085;
+  color: #f2cb40;
   margin-top: 20px;
   padding: 15px;
 }
 
 .modal_container {
   font-family: 'Jura', sans-serif;
-  background: #E6E2DD;
+  background: #014085;
   z-index: 4;
   position: fixed;
   width: 100%;
@@ -186,7 +186,7 @@
   width: 100%;
 
   input[type=text]:focus {
-    border: 3px solid #D48166;
+    border: 3px solid #f2cb40;
   }
 }
 
@@ -215,7 +215,7 @@
   }
 
   input[type=text]:focus {
-    border: 3px solid #D48166;
+    border: 3px solid #f2cb40;
   }
 
 }
@@ -245,13 +245,13 @@
   font-size: 18px;
 
   a {
-    color: #D48166;
+    color: #014085;
     text-decoration: none;
     font-weight: bold;
   }
 
   a:hover {
-    color: #d67757;
+    color: #f2cb40;
   }
 }
 
@@ -261,8 +261,8 @@
   padding: 15px;
   border-radius: 12px;
   border: none;
-  background: #D48166;
-  color: white;
+  background: #014085;
+  color: #f2cb40;
   font-size: 16px;
   cursor: pointer;
   margin-top: 15px;
@@ -324,10 +324,10 @@
 
 .topButton {
   font-family: 'Jura', sans-serif;
-  background-color: #D48166;
+  background-color: #014085;
   font-size: 25px;
   font-weight: 400;
-  color: white;
+  color: #f2cb40;
   border-radius: 10px;
   padding: 1%;
   border: none;

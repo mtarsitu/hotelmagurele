@@ -39,17 +39,21 @@
 }
 
 .topButton {
-    background: #D48166;
+    background: #014085;
     font-size: 25px;
     font-weight: 400;
-    color: white;
+    color:#f2cb40;
     border-radius: 12px;
     padding: 1%;
     border: none;
     min-width: 150px;
     min-height: 50px;
+    
 }
-
+.topButton:hover{
+    background: #f2cb40;
+    color: #014085;
+}
 .mapContent {
     padding: 0 50px;
 
