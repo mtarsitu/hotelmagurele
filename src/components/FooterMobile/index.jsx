@@ -17,7 +17,7 @@ export default function FooterMobile() {
           </Link>
         </button>
         <button className={styles.footer_btn}>
-          <Link href="mailto:contact@deee-uri.ro" prefetch={false}>
+          <Link href="mailto:receptie@hotelmagurele.ro" prefetch={false}>
             <a>
               <MailIcon />
             </a>

@@ -75,8 +75,8 @@ function Contact() {
               </p>
               <p>
                 Email:{" "}
-                <Link href="mailto:contact@hotelmagurele.ro">
-                contact@hotelmagurele.ro
+                <Link href="mailto:receptie@hotelmagurele.ro">
+                receptie@hotelmagurele.ro
                 </Link>
               </p>
             </div>
