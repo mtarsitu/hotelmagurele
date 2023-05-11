@@ -129,12 +129,12 @@ export default function Navbar() {
                     <FacebookIcon />
                   </a>
                 </Link>
-                <Link href="whatsapp://send?phone=+40786533556" prefetch={false}>
+                <Link href="whatsapp://send?phone=+40773364191" prefetch={false}>
                   <a target="_blank" rel="noreferrer">
                     <WhatsAppIcon />
                   </a>
                 </Link>
-                <Link href="tel:0786533556" prefetch={false}>
+                <Link href="tel:0773364191" prefetch={false}>
                   <PhoneCallbackIcon />
                 </Link>
               </div>

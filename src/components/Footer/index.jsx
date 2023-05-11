@@ -16,12 +16,12 @@ function Footer() {
                             STRADA ATOMISTILOR NR 250A <br></br>
                             REGISTRUL COMERTULUI: HOTEL <br></br>
                             COD DE INREGISTRARE FISCALA: MAGURELE <br></br>
-                            <Link href="tel:0786533556">
+                            <Link href="tel:0773364191">
                                 <a target="_blank" rel="noreferrer">
-                                    0786 533 556
+                                    0773 364 191
                                 </a>
                             </Link>
-                            {/* TEL: 0786533556 <br></br> */}
+                            {/* TEL: 0773364191 <br></br> */}
 
                         </div>
                     </div>

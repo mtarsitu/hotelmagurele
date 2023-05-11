@@ -10,7 +10,7 @@ export default function FooterMobile() {
     <>
       <div className={styles.footer_mobile_container}>
         <button className={styles.footer_btn}>
-          <Link href="tel:0786533556" prefetch={false}>
+          <Link href="tel:0773364191" prefetch={false}>
             <a>
               <PhoneIcon />
             </a>
@@ -31,7 +31,7 @@ export default function FooterMobile() {
           </Link>
         </button>
         <button className={styles.footer_btn}>
-          <Link href="whatsapp://send?phone=+40786533556" prefetch={false}>
+          <Link href="whatsapp://send?phone=+40773364191" prefetch={false}>
             <a>
               <WhatsAppIcon />
             </a>

@@ -88,12 +88,12 @@ function Contact() {
                 <FacebookIcon />
               </a>
             </Link>
-            <Link href="whatsapp://send?phone=+40786533556">
+            <Link href="whatsapp://send?phone=+40773364191">
               <a target="_blank" rel="noreferrer">
                 <WhatsAppIcon />
               </a>
             </Link>
-            <Link href="tel:0786533556">
+            <Link href="tel:0773364191">
               <PhoneCallbackIcon />
             </Link>
           </div>
