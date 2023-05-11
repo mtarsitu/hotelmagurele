@@ -8,7 +8,7 @@ export default function Blog() {
     <div className={styles.blog_container}>
       <h1>INFORMATII UTILE</h1>
       <p>
-        Fii intotdeuna la curent cu cele mai noi informatii ale Hotelului Magurele!
+        Intotdeuna la curent cu cele mai noi informatii ale Hotelului Magurele!
       </p>
       <div className={styles.blog_article_container}>
       <div className={styles.blog_article}>
